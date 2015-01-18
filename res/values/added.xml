@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="event_title">Event title</string>
+    <string name="event_venue">Event venue</string>
+    <string name="hint_event_date">Date</string>
+    <string name="hint_event_time">Time</string>
+    <string name="time_from">FROM</string>
+    <string name="time_to">TO</string>
+    <string name="event_location">Event location</string>
+    <string name="event_note">Event note</string>
+    <string name="event_id">Event ID</string>
+    <string name="event_attendees">Event attendees</string>
+
+</resources>

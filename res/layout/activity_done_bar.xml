@@ -1,0 +1,122 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        style="@style/Widget.SampleContentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.example.android.donebar.MyTextView
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donebaractivity_description" />
+
+        <com.example.android.donebar.MyEditText
+            android:id="@+id/event_title"
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/event_title"
+            android:textColor="#787877" >
+        </com.example.android.donebar.MyEditText>
+
+        <com.example.android.donebar.MyEditText
+            android:id="@+id/event_venue"
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/event_venue"
+            android:textColor="#787877" >
+        </com.example.android.donebar.MyEditText>
+
+        <com.example.android.donebar.DateDisplayPicker
+            android:id="@+id/date_picker"
+            style="@android:style/Widget.Holo.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_event_date" />
+
+        <com.example.android.donebar.MyTextView
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time_from" />
+
+        <com.example.android.donebar.TimeDisplayPicker
+            android:id="@+id/time_picker_from"
+            style="@android:style/Widget.Holo.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_event_time" />
+
+        <com.example.android.donebar.MyTextView
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time_to" />
+
+        <com.example.android.donebar.TimeDisplayPicker
+            android:id="@+id/time_picker_to
+            "
+            style="@android:style/Widget.Holo.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_event_time" />
+
+        <com.example.android.donebar.MyTextView
+            android:id="@+id/event_location"
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_location" />
+
+        <com.example.android.donebar.MyEditText
+            android:id="@+id/event_note"
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/event_note"
+            android:textColor="#787877" >
+        </com.example.android.donebar.MyEditText>
+
+        <com.example.android.donebar.MyEditText
+            android:id="@+id/event_attendees"
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/event_attendees"
+            android:textColor="#787877" >
+        </com.example.android.donebar.MyEditText>
+
+        <com.example.android.donebar.MyTextView
+            android:id="@+id/event_id"
+            style="@style/Widget.SampleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_id" />
+    </LinearLayout>
+
+</ScrollView>
